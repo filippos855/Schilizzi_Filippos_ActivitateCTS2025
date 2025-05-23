@@ -9,9 +9,9 @@ public class InternareFacade {
         this.salon = salon;
     }
 
-    public void verificaSiInterneaza(Pacient pacient) {
-        System.out.println("=== Verificare internare pentru: " + pacient.getNume() + " ===");
-        if (!medic.confirmaInternare(pacient)) {
+    public void verificaSiInterneaza(PacientInternare pacientInternare) {
+        System.out.println("=== Verificare internare pentru: " + pacientInternare.getNume() + " ===");
+        if (!medic.confirmaInternare(pacientInternare)) {
             System.out.println("Internare respinsă: medicul nu aprobă.");
             return;
         }
@@ -22,6 +22,6 @@ public class InternareFacade {
         }
 
         salon.ocupaPat();
-        System.out.println("Pacientul " + pacient.getNume() + " a fost internat cu succes.");
+        System.out.println("Pacientul " + pacientInternare.getNume() + " a fost internat cu succes.");
     }
 }

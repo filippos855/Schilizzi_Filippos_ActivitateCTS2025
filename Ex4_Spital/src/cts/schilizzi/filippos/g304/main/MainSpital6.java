@@ -8,9 +8,9 @@ public class MainSpital6 {
         Salon salon = new Salon(2);
         InternareFacade internare = new InternareFacade(medic, salon);
 
-        Pacient p1 = new Pacient("Ionel", true);
-        Pacient p2 = new Pacient("Mihai", false);
-        Pacient p3 = new Pacient("Maria", true);
+        PacientInternare p1 = new PacientInternare("Ionel", true);
+        PacientInternare p2 = new PacientInternare("Mihai", false);
+        PacientInternare p3 = new PacientInternare("Maria", true);
 
         internare.verificaSiInterneaza(p1);
         internare.verificaSiInterneaza(p2);
