@@ -6,6 +6,7 @@ public class PacientBuilder {
     private boolean micDejunInclus = false;
     private boolean papuciCamera = false;
     private boolean halatInterior = false;
+    private boolean areAsigurare = true;
 
     public PacientBuilder setNume(String nume) {
         this.nume = nume;
@@ -32,7 +33,12 @@ public class PacientBuilder {
         return this;
     }
 
+    public PacientBuilder faraAsigurare() {
+        this.areAsigurare = false;
+        return this;
+    }
+
     public Pacient build() {
-        return new Pacient(nume, patRabatabil, micDejunInclus, papuciCamera, halatInterior);
+        return new Pacient(nume, patRabatabil, micDejunInclus, papuciCamera, halatInterior, areAsigurare);
     }
 }
