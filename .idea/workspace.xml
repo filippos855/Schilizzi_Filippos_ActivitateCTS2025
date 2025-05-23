@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="503bd4a3-6dfa-41a0-8b7e-f2d927ec2eb9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cts/schilizzi/filippos/g304/builder/Decoratiune.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cts/schilizzi/filippos/g304/builder/ExceptieMagazin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cts/schilizzi/filippos/g304/builder/Magazin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cts/schilizzi/filippos/g304/builder/MagazinBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cts/schilizzi/filippos/g304/builder/Podea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cts/schilizzi/filippos/g304/main/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2xSgEU7mFyKs6Xb1JgGSgbwNQ2s" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Java projects/Ex1"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="503bd4a3-6dfa-41a0-8b7e-f2d927ec2eb9" name="Changes" comment="" />
+      <created>1747936778702</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747936778702</updated>
+    </task>
+    <servers />
+  </component>
+</project>
