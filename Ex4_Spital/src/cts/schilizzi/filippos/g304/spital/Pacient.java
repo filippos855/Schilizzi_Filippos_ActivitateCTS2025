@@ -2,25 +2,18 @@ package cts.schilizzi.filippos.g304.spital;
 
 public class Pacient {
     private final String nume;
-    private final boolean patRabatabil;
-    private final boolean micDejunInclus;
-    private final boolean papuciCamera;
-    private final boolean halatInterior;
+    private final boolean stareGrava;
 
-    Pacient(String nume, boolean patRabatabil, boolean micDejunInclus, boolean papuciCamera, boolean halatInterior) {
+    public Pacient(String nume, boolean stareGrava) {
         this.nume = nume;
-        this.patRabatabil = patRabatabil;
-        this.micDejunInclus = micDejunInclus;
-        this.papuciCamera = papuciCamera;
-        this.halatInterior = halatInterior;
+        this.stareGrava = stareGrava;
     }
 
-    @Override
-    public String toString() {
-        return "Pacient: " + nume +
-                "\n - Pat rabatabil: " + patRabatabil +
-                "\n - Mic dejun inclus: " + micDejunInclus +
-                "\n - Papuci cameră: " + papuciCamera +
-                "\n - Halat interior: " + halatInterior;
+    public boolean areStareGrava() {
+        return stareGrava;
+    }
+
+    public String getNume() {
+        return nume;
     }
 }
